@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  where_to_go: MyString
+  when_to_go: 2014-03-11
+
+two:
+  where_to_go: MyString
+  when_to_go: 2014-03-11

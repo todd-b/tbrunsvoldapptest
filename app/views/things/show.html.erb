@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Something to do before you die!</strong>
+  <%= @thing.things_to_do %>
+</p>
+
+<p>
+  <strong>Deadline :)</strong>
+  <%= @thing.deadline %>
+</p>
+
+<%= link_to 'Edit', edit_thing_path(@thing) %> |
+<%= link_to 'Back', things_path %>
